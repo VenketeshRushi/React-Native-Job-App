@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     fontSize: SIZES.medium,
     color: COLORS.white,
     fontFamily: FONT.bold,
+    padding: "10px"
   },
 });
 

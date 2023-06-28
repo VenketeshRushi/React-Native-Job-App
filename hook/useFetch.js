@@ -10,13 +10,14 @@ const useFetch = (endpoint, query) => {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     headers: {
-      "X-RapidAPI-Key": "6b63d41899mshef1bab99a7d2789p11d3dajsnd56e067a1f8a",
+      "X-RapidAPI-Key": "b047367d16msheac2b5a1d7b3c42p13dcb4jsn314946d49152",
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
     },
     params: { ...query },
   };
 
   const fetchData = async () => {
+    console.log("options", options);
     setIsLoading(true);
 
     try {
